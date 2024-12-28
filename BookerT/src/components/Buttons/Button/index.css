@@ -1,0 +1,15 @@
+/* BlackButton.css */
+.sds-button {
+  background-color: black;
+  color: white;
+  padding: 2px 16px;
+  border-radius: 25px;
+  margin: 4px;
+  min-width: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sds-button:hover {
+  background-color: #333; /* Darken the background color on hover */
+}

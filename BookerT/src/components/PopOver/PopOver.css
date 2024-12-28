@@ -1,0 +1,47 @@
+.ads-popover-container {
+  position: relative;
+  display: inline-block;
+}
+
+.ads-popover-trigger {
+  cursor: pointer;
+}
+
+.ads-popover-content {
+  position: absolute;
+  z-index: 1000;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.ads-popover-top {
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+}
+
+.ads-popover-bottom {
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1px;
+}
+
+.popover-left {
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 8px;
+}
+
+.popover-right {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 8px;
+}

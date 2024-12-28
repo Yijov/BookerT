@@ -1,0 +1,29 @@
+.crirtical-error {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.crirtical-error .error-container {
+  text-align: center;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.crirtical-error p {
+  margin-top: 28px;
+}
+
+.crirtical-error .button-container {
+  margin-top: 28px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.crirtical-error .title {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+.sds-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.sds-clikcable {
+  cursor: pointer;
+}

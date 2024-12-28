@@ -1,0 +1,27 @@
+.ads-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: clamp(10px, 1.1vw, 17px);
+}
+
+.ads-table th,
+.ads-table td {
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.ads-table .ads-td-empty {
+  text-align: center;
+}
+.ads-table .ads-td-empty .ads-spinner-container {
+  margin: auto;
+}
+
+.ads-table tr {
+  height: 30px;
+}
+.ads-table th {
+  background-color: #f4f4f4;
+ 
+}
+

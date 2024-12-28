@@ -1,0 +1,35 @@
+.ads-imagePreviewWrapper_container {
+  padding: 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+  max-height: 350px;
+  width: fit-content;
+}
+.ads-inmage-input-component-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+#ads-place-label {
+  padding: 10px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#ads-input-component {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+.ads-imagePreviewWrapper {
+  width: 250px;
+  height: 250px;
+  display: block;
+  cursor: pointer;
+  margin: 0 auto 30px;
+  background-size: cover;
+  background-position: center center;
+}

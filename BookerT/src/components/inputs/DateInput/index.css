@@ -1,0 +1,16 @@
+.ads-date_picker-label {
+  box-sizing: border-box;
+  padding: 6px 10px;
+  border-radius: 25px 0 0 25px;
+}
+.ads-date_picker__input {
+  padding: 6px 5px 5px 5px;
+  border-radius: 0 25px 25px 0;
+  border: none;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.ads-date_picker__input:focus {
+  outline: none;
+}

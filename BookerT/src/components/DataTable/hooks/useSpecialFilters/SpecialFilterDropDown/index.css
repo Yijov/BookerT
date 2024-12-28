@@ -1,0 +1,39 @@
+.ads-DataTable-special_filter_dropdown-selected-option {
+  cursor: pointer;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.ads-DataTable-special_filter_dropdown-options {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ads-DataTable-special_filter_dropdown-option {
+  padding: 2px;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.ads-DataTable-special_filter_dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+.ads-DataTable-special_filter_dropdowndone_button {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
