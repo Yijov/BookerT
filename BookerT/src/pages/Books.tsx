@@ -21,7 +21,7 @@ const BooksPage: React.FC = () => {
     },
     {
       accessor: "title",
-      header: "Titulo",
+      header: "Title",
       renderValue(_data, row) {
         return <BookNeme book={row as Book} />;
       },
@@ -32,7 +32,7 @@ const BooksPage: React.FC = () => {
     {
       accessor: "publishDate",
       filter: true,
-      header: "Publicación",
+      header: "Publication Date",
       renderValue(data) {
         return new Date(data).toLocaleDateString();
       },
@@ -42,7 +42,7 @@ const BooksPage: React.FC = () => {
     },
     {
       accessor: "description",
-      header: "descripción",
+      header: "Description",
       renderHeader(data) {
         return String(data).toUpperCase();
       },

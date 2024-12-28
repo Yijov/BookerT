@@ -19,14 +19,14 @@ const AuthorsPage:React.FC = () => {
       },
       {
         accessor: "firstName",
-        header: "Nombre",
+        header: "Name",
         renderHeader(data) {
           return String(data).toUpperCase();
         },
       },
       {
         accessor: "lastName",
-        header: "Apellidp",
+        header: "Last Name>",
         renderHeader(data) {
           return String(data).toUpperCase();
         },
