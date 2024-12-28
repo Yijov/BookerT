@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vqiaZSbXrxplpTCtC1CE4AA74gfjMrQPZe5CfSu0mLU=",
+  "Source": "Bookert.API",
+  "BasePath": "_content/Bookert.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
